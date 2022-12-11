@@ -11,7 +11,7 @@ export const Stats = props => {
   <ul className={css2['stat-list']}>
   {data.map(props =>
    (
-        <li className={css2.item} style={{backgroundColor:'#'+(0x1000000+Math.random()*0xffffff).toString(16).substr(1,6)}}>
+        <li className={css2.profileList} style={{backgroundColor:'#'+(0x1000000+Math.random()*0xffffff).toString(16).substr(1,6)}}>
         <span className={css2.label2}>{props.label}</span>
         <span className={css2.percentage}>{props.percentage}%</span>
         </li>
