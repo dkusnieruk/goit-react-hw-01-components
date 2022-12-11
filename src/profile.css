@@ -1,4 +1,5 @@
 .profile{
+    margin-top:50px;
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -6,7 +7,7 @@
     background-color: white;
     padding-top:25px;
     border-radius:5px;
-    margin:auto;
+    margin: 25px auto;
 }
 
 .avatar{
