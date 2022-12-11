@@ -1,6 +1,6 @@
 import data from '../Stats/data.json'
 import css2 from '../Stats/stats.module.css'
-
+import PropTypes from "prop-types";
 
 export const Stats = props => {
 
@@ -21,3 +21,8 @@ export const Stats = props => {
     );
   };
   
+  Stats.propTypes ={
+    label : PropTypes.number,
+    percentage: PropTypes.number
+   
+};

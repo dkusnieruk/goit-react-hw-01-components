@@ -1,5 +1,6 @@
 import friends from '../Friends/friends.json';
 import css3 from '../Friends/friends.module.css';
+import PropTypes from "prop-types";
 export const FriendList = props => {
 
     return (
@@ -20,5 +21,10 @@ export const FriendList = props => {
       </ul>
     );
   };
-  
+  //
 
+  FriendList.prototype ={
+    isOnline : PropTypes.bool,
+    avatar : PropTypes.string,
+    name : PropTypes.string
+  }
