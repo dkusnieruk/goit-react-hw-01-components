@@ -3,7 +3,7 @@ import css2 from '../Stats/stats.module.css'
 
 
 export const Stats = props => {
-    console.log(data);
+
     return (
         <section className={css2.statistics}>
   <h2 className={css2.title}>Upload stats</h2>

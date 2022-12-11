@@ -1,10 +1,8 @@
-import user from '../Profile/user.json';
 import PropTypes from "prop-types";
 import css from '../Profile/profile.module.css';
 
 export const Profile = props => {
 
-    console.log(user.avatar);
     
     return (
       <div className={css.profile}>
@@ -45,6 +43,6 @@ Profile.propTypes ={
     followers :PropTypes.number,
     views :PropTypes.number,
     likes:PropTypes.number,
-    
-
 };
+
+
