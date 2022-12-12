@@ -1,16 +1,16 @@
 import data from '../data/data.json';
-import css2 from '../Stats/stats.module.css';
+import css from '../Stats/stats.module.css';
 import PropTypes from 'prop-types';
 
 export const Stats = props => {
   return (
-    <section className={css2.statistics}>
-      <h2 className={css2.title}>Upload stats</h2>
+    <section className={css.statistics}>
+      <h2 className={css.title}>Upload stats</h2>
 
-      <ul className={css2['stat-list']}>
+      <ul className={css['stat-list']}>
         {data.map(props => (
           <li
-            className={css2.profileList}
+            className={css.profileList}
             style={{
               backgroundColor:
                 '#' +
@@ -19,8 +19,8 @@ export const Stats = props => {
                   .substr(1, 6),
             }}
           >
-            <span className={css2.label2}>{props.label}</span>
-            <span className={css2.percentage}>{props.percentage}%</span>
+            <span className={css.label2}>{props.label}</span>
+            <span className={css.percentage}>{props.percentage}%</span>
           </li>
         ))}
       </ul>
