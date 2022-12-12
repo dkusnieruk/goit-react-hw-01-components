@@ -1,65 +1,60 @@
-.profile{
-    margin-top:50px;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    width: 360px;
-    background-color: white;
-    padding-top:25px;
-    border-radius:5px;
-    margin: 25px auto;
+.profile {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 360px;
+  background-color: white;
+  padding-top: 25px;
+  border-radius: 5px;
+  margin: 25px auto;
 }
 
-.avatar{
-    width: 300px;
-    height: 300px;
-    border-radius: 50%;
-    background-color: lightgray;
-
+.avatar {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  background-color: lightgray;
 }
 
-.stats{
-    display:grid;
-    grid-template-columns: 120px 120px 120px;
-    list-style-type: none;
-    padding-inline-start:0;
-    margin:0px;
-    width:100%;
-    background-color: lightgray;
-    border-radius:5px;
+.stats {
+  display: grid;
+  grid-template-columns: 120px 120px 120px;
+  list-style-type: none;
+  padding-inline-start: 0;
+  margin: 0px;
+  width: 100%;
+  background-color: lightgray;
+  border-radius: 5px;
 }
 
-.profileList{
-    border: 1px solid grey;
-    display:flex;
-    flex-direction: column;
-    align-items: center;
-    width: auto;
-    border-radius:5px;
-    height: 75px;
-    justify-content: center;
-    justify-items: center;
-
+.profileList {
+  border: 1px solid grey;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: auto;
+  border-radius: 5px;
+  height: 75px;
+  justify-content: center;
+  justify-items: center;
 }
-.name{
-font-size: 25px;
-font-weight: 500;
+.name {
+  font-size: 25px;
+  font-weight: 500;
 }
-.tag{
-color:HEX
-#99A3A4;
+.tag {
+  color: HEX #99a3a4;
 }
-.location{
-color:HEX
-#99A3A4;
+.location {
+  color: HEX #99a3a4;
 }
 .label {
-    color:HEX
-    #99A3A4;
+  color: HEX #99a3a4;
 }
 
 .quantity {
-    line-height: 25px;
-    color:black;
-    font-weight: 800;
+  line-height: 25px;
+  color: black;
+  font-weight: 800;
 }
