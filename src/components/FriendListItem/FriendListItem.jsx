@@ -1,27 +1,29 @@
-import friends from '../data/friends.json';
-import css from '../FriendListItem/friendListItem.module.css';
 
+import css from '../FriendListItem/friendListItem.module.css';
 import PropTypes from 'prop-types';
-export const FriendListItem = props => {
-  return friends.map(props => (
+
+
+
+export const FriendListItem = ({isOnline, avatar, name}) => {
+  return (
     <li className={css.item}>
       <span
         className={css.status}
         style={{
-          backgroundColor: props.isOnline === true ? 'green' : 'red',
+          backgroundColor: isOnline === true ? 'green' : 'red',
         }}
       >
-        {props.isOnline}
+        {isOnline}
       </span>
       <img
         className={css.avatar}
-        src={props.avatar}
+        src={avatar}
         alt="User avatar"
         width="48"
       />
-      <p className={css.name}>{props.name}</p>
+      <p className={css.name}>{name}</p>
     </li>
-  ));
+  );
 };
 //
 
