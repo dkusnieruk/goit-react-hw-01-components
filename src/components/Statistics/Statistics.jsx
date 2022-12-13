@@ -1,8 +1,8 @@
 import data from '../data/data.json';
-import css from '../Stats/stats.module.css';
+import css from '../Statistics/statistics.module.css';
 import PropTypes from 'prop-types';
 
-export const Stats = props => {
+export const Statistics = props => {
   return (
     <section className={css.statistics}>
       <h2 className={css.title}>Upload stats</h2>
@@ -28,7 +28,7 @@ export const Stats = props => {
   );
 };
 
-Stats.propTypes = {
+Statistics.propTypes = {
   label: PropTypes.number,
   percentage: PropTypes.number,
 };

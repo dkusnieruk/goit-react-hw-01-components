@@ -27,7 +27,7 @@ export const FriendListItem = ({isOnline, avatar, name}) => {
 };
 //
 
-FriendListItem.prototype = {
+FriendListItem.propType = {
   isOnline: PropTypes.bool,
   avatar: PropTypes.string,
   name: PropTypes.string,

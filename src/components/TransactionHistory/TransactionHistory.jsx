@@ -1,6 +1,6 @@
 import transactions from '../data/transactions.json';
 import PropTypes from 'prop-types';
-import css from '../TransactionsHistory/transactionHistory.module.css';
+import css from '../TransactionHistory/transactionHistory.module.css';
 
 export const TransactionHistory = props => {
   return (
