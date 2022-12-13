@@ -2,7 +2,7 @@ import transactions from '../data/transactions.json';
 import PropTypes from 'prop-types';
 import css from '../TransactionsHistory/transactionHistory.module.css';
 
-export const Transaction = props => {
+export const TransactionHistory = props => {
   return (
     <table className={css['transaction-history']}>
       <thead>
@@ -25,7 +25,7 @@ export const Transaction = props => {
   );
 };
 
-Transaction.propTypes = {
+TransactionHistory.propTypes = {
   id: PropTypes.string,
   type: PropTypes.string,
   amount: PropTypes.number,
